@@ -16,6 +16,9 @@ body {
   justify-content: center;
   align-items: center;
   width: 35%;
+  background-image: url("./halie-west-25xggax4bSA-unsplash.jpg");
+  background-size: cover;
+  background-position: center;
 }
 
 .right-side {
