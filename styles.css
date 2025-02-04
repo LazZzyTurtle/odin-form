@@ -29,14 +29,18 @@ body {
   justify-content: center;
   width: 65%;
   gap: 20px;
+  position: relative;
+  background-color: rgb(247, 249, 250);
 }
 
 .logo {
   background-color: rgba(0, 0, 0, 0.7);
-  width: 100%;
+  width: 35%;
   display: flex;
   justify-content: center;
   align-items: center;
   color: white;
   height: 20%;
+  position: absolute;
+  top: 15%;
 }
