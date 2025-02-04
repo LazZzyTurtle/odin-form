@@ -58,6 +58,14 @@ body {
 .action > p {
   margin-top: 24px;
 }
+.form {
+  background-color: white;
+}
+.form > p {
+  font-size: 20px;
+  font-weight: 600;
+  padding: 20px 0;
+}
 
 .form-group {
   display: flex;
@@ -65,4 +73,20 @@ body {
 }
 label {
   display: block;
+}
+
+button {
+  background-color: #5a6e48;
+  color: white;
+  padding: 10px 40px;
+  font-size: 14px;
+  font-weight: 600;
+  border: 1px solid #5a6e48;
+  border-radius: 8px;
+}
+
+a {
+  color: #5a6e48;
+  text-decoration: none;
+  font-weight: 700;
 }
