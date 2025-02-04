@@ -23,7 +23,7 @@
         <p>You <span>know</span> you want to.</p>
       </div>
       <div class="form">
-        <fieldset>
+        <div class="form-group">
           <div>
             <label for="first-name">FIRST NAME</label>
             <input type="text" name="first-name" id="first-name" />
@@ -32,8 +32,8 @@
             <label for="last-name">LAST NAME</label>
             <input type="text" name="last-name" id="last-name" />
           </div>
-        </fieldset>
-        <fieldset>
+        </div>
+        <div class="form-group">
           <div>
             <label for="email">EMAIL</label>
             <input type="email" name="email" id="email" />
@@ -42,13 +42,21 @@
             <label for="phone">PHONE NUMBER</label>
             <input type="text" name="phone" id="phone" />
           </div>
-        </fieldset>
-        <fieldset>
+        </div>
+        <div class="form-group">
           <div>
             <label for="password">PASSWORD</label>
             <input type="password" id="password" name="password" />
           </div>
-        </fieldset>
+          <div>
+            <label for="password-confirmation">CONFIRM PASSWORD</label>
+            <input
+              type="password"
+              id="password-confirmation"
+              name="password-confirmation"
+            />
+          </div>
+        </div>
       </div>
       <div class="action">
         <button>Create Account</button>

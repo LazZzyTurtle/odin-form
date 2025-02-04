@@ -54,3 +54,15 @@ body {
 .text p:nth-child(3) {
   padding: 30px 0;
 }
+
+.action > p {
+  margin-top: 24px;
+}
+
+.form-group {
+  display: flex;
+  gap: 40px;
+}
+label {
+  display: block;
+}
